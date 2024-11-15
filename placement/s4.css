@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center; /* Align logo and text vertically */
+  }
+  
+  .logo {
+    width: 100px; /* Adjust logo size */
+    height: auto;
+    margin-right: 20px; /* Space between logo and brand name */
+  }
+  
+  .brand-name {
+    font-size: 36px; /* Large text size */
+    color: blue; /* Blue color for the brand name */
+    font-weight: bold; /* Bold font */
+  }

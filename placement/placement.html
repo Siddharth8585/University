@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placement Page</title>
+    <link rel="stylesheet" href="s4.css">
+    
+
+    
+    <style> 
+</style>
+    
+</head>
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4;">
+
+<!-- Logo at the top left -->
+
+
+<!-- Image below the logo, covering half of the page width -->
+
+    
+
+
+    
+    
+
+
+
+
+
+
+
+   
+    <header>
+        
+
+          
+        <div class="logo-container">
+  <img src="bogo.jpg" alt="Logo" class="logo"> <!-- Replace with your logo -->
+  <span class="brand-name">𝓥𝓲𝓬𝓽𝓸𝓻𝓲𝓪 𝓤𝓷𝓲𝓿𝓮𝓻𝓼𝓲𝓽𝔂</span> <!-- Name beside the logo -->
+</div>
+
+
+
+
+
+
+
+
+    
+</header>
+
+<div style="text-align: center; margin-top: 20px;">
+    <img src="./image45.jpg" alt="Image Below Logo" style="width: 100%; height: auto;">
+</div>
+
+
+   
+
+    <main style="padding: 20px; display: flex; flex-direction: column;">
+        <section style="background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+            <h2>Welcome to the Placement Cell</h2>
+            <p style="line-height: 1.6;">Our placement cell aims to provide students with the best opportunities for career development and placement in leading companies.
+
+
+              <p><h1> Placement & Training</h1></p>
+               <p><h1>Overview</h1></p> 
+                Victoria University strives to provide value-based learning experiences through high quality deliverables and state-of-the-art infrastructure and facilities. Keeping in mind the career of each student, the institute emphasizes on grooming the students as per the industry standards and counseling and motivating them for a successful placement. At Victoria, our primary aim is to lay a strong foundation for our students by inculcating strong ethics of professionalism, personality development and high quality academia to get the desired placement opportunity and employment.
+                
+                <p><h1>Training and Placement</h1></p>
+                Victoria has a dedicated training and placement team to nurture the students and acquaint themselves with the industry-specific trends and corporate cultures.Backed by the continuous support of our training professionals, Victoria thrives to provide pre-placement training to its students to improve their interpersonal, communication and personality development skills. A wide spectrum of training and development programs is conducted for students like seminars, workshops, lecture sessions,group discussions and mock interviews. The training cell endeavors to portray the real picture of the corporate market and make the students fit for the interview in order to get them placed successfully.
+                
+                On the other hand, the placement wing plays a significant role in providing the students suitable employment during the last session of the academic programs. Here lies the underlying philosophy of Victoria, commitment towards excellence.High values of professionalism is maintained so that the students can be job-ready and sustain themselves in the real professional world.
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </p>
+        </section>
+
+        <section style="display: flex; margin-top: 20px;">
+            <div style="flex: 1; margin-right: 10px;">
+                <h2 style="color: #003366;">Recent Companies</h2>
+                <ul style="list-style-type: none; padding: 0;">
+                    <li style="padding: 10px; background: #e7f3fe; margin: 5px 0; border-radius: 5px;">TATA CONSALTENCY SERVICES</li>
+                    <li style="padding: 10px; background: #e7f3fe; margin: 5px 0; border-radius: 5px;">AMAZON WEB SERVICES</li>
+                    <li style="padding: 10px; background: #e7f3fe; margin: 5px 0; border-radius: 5px;">HP</li>
+                </ul>
+            </div>
+
+            <div style="flex: 1;">
+                <h2 style="color: #003366;">Gallery</h2>
+                <div style="display: flex; flex-wrap: wrap;">
+                    <img src="th.jpeg" alt="Image 1" style="width: 100px; height: 100px; margin: 5px; border-radius: 5px;">
+                    <img src="htht.jpeg" alt="Image 2" style="width: 100px; height: 100px; margin: 5px; border-radius: 5px;">
+                    <img src="IMAGE.jpeg" alt="Image 3" style="width: 100px; height: 100px; margin: 5px; border-radius: 5px;">
+                    <img src="IMAGE2.webp" alt="Image 4" style="width: 100px; height: 100px; margin: 5px; border-radius: 5px;">
+                    <img src="IMAGE3.jpeg" alt="Image 5" style="width: 100px; height: 100px; margin: 5px; border-radius: 5px;">
+                </div>
+                <div style="display: flex; flex-wrap: wrap;">
+                    <img src="image4.jpeg" alt="Image 1" style="width: 100px; height: 100px; margin: 5px; border-radius: 5px;">
+                    <img src="image5.png" alt="Image 2" style="width: 100px; height: 100px; margin: 5px; border-radius: 5px;">
+                    <img src="./image6.png" alt="Image 3" style="width: 100px; height: 100px; margin: 5px; border-radius: 5px;">
+                    <img src="image7.png" alt="Image 4" style="width: 100px; height: 100px; margin: 5px; border-radius: 5px;">
+                    <img src="image8.png" alt="Image 5" style="width: 100px; height: 100px; margin: 5px; border-radius: 5px;">
+                </div>
+            </div>
+        </section>
+
+        <section style="margin-top: 20px;">
+            <h2 style="color: #003366;">Upcoming Events</h2>
+            <button onclick="showEvents()" style="padding: 10px; background: #00509e; color: white; border: none; border-radius: 5px; cursor: pointer;">View Events</button>
+            <div id="events" style="display: none; margin-top: 10px; background: #f0f0f0; padding: 10px; border-radius: 5px;">
+                <p>1. Campus Recruitment Drive - Date: 25th November</p>
+                <p>2. Resume Building Workshop - Date: 30th November</p>
+                <p>3. Mock Interviews - Date: 5th December</p>
+            </div>
+        </section>
+    </main>
+
+   
+
+    <script>
+        function showEvents() {
+            const eventsDiv = document.getElementById('events');
+            if (eventsDiv.style.display === "none") {
+                eventsDiv.style.display = "block";
+            } else {
+                eventsDiv.style.display = "none";
+            }
+        }
+    </script>
+ 
+
+<!-- HTML -->
+<!-- HTML with Inline CSS -->
+<!-- HTML with Inline CSS -->
+<div style="text-align: center;">
+    <footer style="background-color: #f0f0f0; padding: 20px; display: inline-block;">
+        <p style="color: blue; font-size: 14px; margin: 0; display: inline;">All rights reserved © 2024</p>
+    </footer>
+</div>
+
+
+   
+</body>
+</html>

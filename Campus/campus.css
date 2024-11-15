@@ -1,0 +1,345 @@
+.{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+#skyline {
+    display: block;
+    background-color: #002676;
+    color: #fff;
+    height: 120;
+    font-weight: 600;
+    position: relative;
+    z-index: 1;
+    padding-top: 0.3rem;
+    padding-right: 0px;
+    padding-bottom: 0.3rem;
+    padding-left: 0px;
+    font-size: .75rem;
+
+}
+
+#skyline .container {
+    display: flex;
+    align-items: center;
+}
+
+.img-div  img{
+    height: 80px;
+    width: 70px;
+    border-radius: 2px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+h3 {
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.right-toolbar {
+    padding-left: 700px;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+    border: none;
+}
+
+button {
+    background-color: orange;
+    border-radius: 20px;
+    border: none;
+}
+
+.homepage {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./background\ image.jpg);
+    width: 100%;
+    height: 100vh; 
+     margin-top: 2px;
+}
+
+.contain {
+    align-items: center;
+display: flex;
+height: 352px;
+margin-bottom: 0px;
+margin-left: 24.125px;
+margin-right :24.125px;
+margin-top: 0px; 
+max-width: 1170px;
+min-height: 452px;
+width :916.55px;
+font-family: Inter, sans-serif;
+font-size: 16px;
+line-height: 24px;
+} 
+
+.caption {
+    display: block;
+    width: 449.9px;
+    font-family: Inter,sans-serif;
+    font-size: 16px;
+    
+}
+
+.caption h1 {
+    background-color: rgb(20, 154, 207);
+    color: #0d0432;
+    align-self: flex-start;
+display:inline;
+height: auto;
+padding-bottom: 11.2px;
+padding-left: 16px;
+
+padding-right :16px;
+padding-top :11.2px;
+width :auto;
+font-family :Inter, sans-serif;
+font-size :44px;
+font-weight: 900;
+letter-spacing: normal;
+line-height: 66px;
+text-transform: none;
+}
+
+.lead-text {
+    display:block;
+    padding-left: 10%;
+    width: 1150px;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: normal;
+    text-align: justify;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    font-size: 2rem;
+    line-height: 1.3125;
+    padding-right: 10%;
+
+}
+
+.content {
+    width: 100%;
+    padding: 2%;
+    display: grid;
+    grid-template-columns: 45% 40%;
+    grid-column-gap: 10%;
+}
+
+.left {
+    
+        display: block;
+        unicode-bidi: isolate;
+        font-family: Inter, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    padding-left: 15px;
+    background-color: #fff;
+    color: #262626;
+}
+
+.component{
+    display: block;
+    unicode-bidi: isolate;
+    font-family: Inter, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0;
+    background-color: #fff;
+    color: #262626;
+
+}  
+
+.component.thumblist .item {
+    grid-template-columns: repeat(1, 100%);
+    grid-column-gap: 0;
+    display: grid;
+grid-template-columns: 33% 65%;
+grid-column-gap: 30px;
+width: 100%;
+margin-bottom: 1.875rem;
+}
+
+.item {
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+        grid-column-gap: 0;
+        margin-bottom: 1.8rem;
+        width: 100%;
+}
+
+.left img {
+    width: 100%;
+     
+}
+
+.right {
+    display: block;
+    unicode-bidi: isolate;
+    font-family: Inter, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #262626;
+    
+} 
+
+ h2#thumb_title {
+    color: #002676;
+    text-decoration: underline;
+    border: none;
+     background: none; 
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-family: Inter, sans-serif;
+}
+
+.component.block.bullet_list {
+    display: flex;
+    margin-bottom: 2rem;
+    flex-flow: column;
+    line-height: 1.5;
+    color: #262626;
+    font-size: 1rem;
+    font-family: Inter,sans-serif;
+}
+
+.component.block.bullet_list h3 {
+    color: #002676;
+    text-decoration: underline;
+    display: flex;
+}  
+
+.component.block.event {
+    display: flex;
+    margin-bottom: 2rem;
+    -webkit-box-orient: vertical;
+    flex-flow: column;
+    line-height: 1.5;
+    color: #262626;
+    font-size: 1rem;
+    font-family: Inter,sans-serif;
+}
+
+.component.event .event-event {
+    display: grid;
+    grid-template-columns: 15% 75%;
+    grid-column-gap: 3%;
+    justify-items: start;
+    min-height: 3.15rem;
+    margin: 0 0 1em;
+}
+
+.component.event .event-event .event-date {
+    width: 100%;
+    border-right: 1px solid grey;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.2;
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.component.event .event-event .event-date .event-month {
+    font-size: 16px;
+    font-size: 1rem;
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.component.event .event-event .event-date .event-month {
+    font-size: 16px;
+    font-size: 1rem;
+}
+.component.event .event-event .event-date {
+    width: 100%;
+    border-right: 1px solid grey;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    word-wrap: normal !important;
+    border: 0;
+    -webkit-clip-path: inset(50%);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.event-date {
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.component.event .event-more {
+    margin-top: 1em;
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.event-more {
+    color: #002676;
+    text-decoration: underline;
+}
+
+.component.quote {
+    margin: 0;
+    background-color: #004aae;
+    padding: 2.5rem;
+    width: 400px;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.component.quote .quote-text {
+    font-family: "Source Serif 4", serif;
+    font-size: 2rem;
+    font-style: italic;
+    line-height: 1.2;
+    margin-bottom: 1.25rem;
+    color: #fdb515;
+    font-weight: 700;
+} 
+
+.footer-content {
+    text-align: center;
+    padding: 3px;
+    background-color: #002676;
+    color: #fff;
+    height: 350px;
+
+}
+
+.component.footer-copyright {
+    background-color: #004aae;
+    color: hsl(41, 98%, 54%);
+    margin-top: 10%;
+
+} 
+
+.icon {
+    font-size: 30px;
+    border-radius: 5px;
+}

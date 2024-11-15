@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  footer {
+    margin-top: auto; /* To ensure footer stays at the bottom */
+    background-color: #0044cc; /* Blue background */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .box {
+    background-color: white;
+    color: #0044cc; /* Blue text */
+    border: 2px solid #0044cc;
+    width: 200px;
+    padding: 15px;
+    margin: 10px 0;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .box:hover {
+    background-color: #0044cc;
+    color: white;
+    transition: 0.3s ease;
+  }

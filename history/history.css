@@ -1,0 +1,107 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    font-family: arial;
+    gap: 8px;
+    /* border: 2px solid rgb(247, 243, 39); */
+}
+.name{
+    font-size: 50px;
+}
+.content{
+    padding: 20px;
+}
+.detail{
+    font-size: 15px;
+    font-family: arial;
+}
+.bigimage{
+    padding: 20px;
+}
+.detail2{
+    /* border: 2px solid rgb(82, 40, 125); */
+     padding-left: 20px; 
+}
+.name2{
+    font-size: 50px;
+}
+.left{
+    /* border: 2px solid rgb(9, 255, 0); */
+    width: 70%;
+    padding: 20px;
+}
+.right{
+    /* border: 2px solid rgb(255, 0, 255); */
+    width: 30%;
+    padding: 20px;
+}
+.Vision{
+    /* border: 2px solid rgb(255, 0, 0); */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Vision2{
+    /* border: 2px solid rgb(43, 0, 255); */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.design{
+    /* border: 2px solid rgb(88, 255, 33); */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container{
+    padding: 20px;
+    /* border: 2px solid rgb(5, 255, 255); */
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+}
+.box{
+    height: 320px;
+    width: 1000px;
+    background-color: rgb(12, 90, 149);
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+    font-size: 15px;
+}
+/* .archives{
+    border: 2px solid rgb(5, 255, 47); 
+} */
+.Records{
+    font-size: 30px;
+}
+.size{
+    font-size: 13px;
+}
+.footer{
+    background-image: url(./vic.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(13, 13, 13);
+    
+}
+.underfooter{
+    padding: 20px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+}
+.button{
+    background-color: rgb(216, 217, 207);
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+}

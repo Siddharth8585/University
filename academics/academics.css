@@ -1,0 +1,134 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: calibri;
+}
+.navbar{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icon{
+    display: flex;
+    gap: 12px;
+}
+.name{
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 12px;
+}
+.Psize{
+    font-size: 25px;
+    font-family: arial;
+}
+.bigimage{
+    position: relative;
+}
+.text-overlay{
+    position: absolute;
+    top: 75%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 30px;
+    /* font-family: calibri; */
+    font-weight: bolder;
+    padding: 10px;
+    /* border: 2px solid rgb(55, 0, 255); */
+
+}
+.quote{
+    padding: 20px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 17px;
+}
+.para{
+    padding: 15px;
+    /* border: 2px solid rgb(230, 255, 4); */
+    /* width: 60%; */
+}
+.professor{
+    padding: 20px;
+    /* border: 2px solid rgb(255, 18, 192); */
+}
+.UnderGrad{
+    /* border: 2px solid rgb(106, 0, 255); */
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.GradEx{
+    padding: 20px;
+    font-size: 15px;
+    /* border: 2px solid rgb(255, 0, 0); */
+}
+.Grad{
+    /* border: 2px solid rgb(15, 82, 2); */
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.gradPic{
+    padding: 20px;
+}
+.heading{
+    padding: 30px;
+    /* border: 2px solid rgb(22, 1, 115); */
+}
+.research{
+    font-size: 30px;
+}
+.skill{
+    /* border: 2px solid rgb(255, 172, 6); */
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* .freshman{
+    padding-top: 20px;
+} */
+
+.arts{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.art{
+    /* border: 2px solid rgb(255, 0, 0); */
+    padding: 15px;
+    font-size: 14px;
+}
+.engineering{
+    /* border: 2px solid rgb(130, 140, 255); */
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer{
+    background-color: black;
+    color: white;
+    font-family: arial;
+    font-size: 12px;
+}
+.upper{
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.lower{
+    padding: 25px;
+    font-size: 10px;
+}
